@@ -1,0 +1,27 @@
+#Intro {
+  padding: 120px 163px 186px 163px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  
+  div {
+    width: 100%;
+    max-width: 680px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+#icons skills {
+  display: flex;
+  grid-auto-flow: column;
+  justify-content: center;
+  gap: 16px; 
+    margin-top: 32px;
+    width: 100%;
+    /* Limite máximo da área de ícones do seu Figma */
+    max-width: 1040px;
+  ,a
+}

@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
+@import url(/style/intro.css);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  
+}
+
+:root {
+  --red-color: #e3646e;
+  --purple-color:#bb72e9;
+  --blue-color: #3996db;
+  --green-color: #82bc4f;
+  --yellow-color: #eabd5f;
+  --bg-gray-100: #e2e4e9;
+  --bg-gray-200: #c0c4ce;
+  --bg-gray-300: #878ea1;
+  --bg-gray-400: #292c34;
+  --bg-gray-500: #16181d;
+  --bg-gray-600: #0d0e11;
+  --bg-intro-image: url(../assets/images/Background_Intro.png);
+  --bg-contacts-image: url(../assets/images/Background_Contacts.png);
+
+  --font-family-title: "Asap", sans-serif;
+  --font-family-subtitle: "Inconsolata", monospace;
+  --font-family-text: "Maven Pro", sans-serif;
+
+  --font-title-lg: 800 56px/120% var(--font-family-title);
+  --font-title-md: 800 24/120% var(--font-family-title);
+  --font-title-sm: 800 16/120% var(--font-family-title);
+
+  --font-subtitle: 400 20px/120% var(--font-family-subtitle);
+
+  --font-text-md: 400 16px/140% var(--font-family-text);
+  --font-text-sm: 400 14px/40% var(--font-family-text)
+}
+
+.profile-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 0px 54px;
+}
+
+.Intro {
+  background-image: var(--bg-intro-image);
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  min-height: 750px; 
+  width: 100%;
+}
+
+.subtitle {
+  font: var(--font-subtitle);
+  color: var(--bg-gray-200);
+  text-align: center;
+}
+
+.subtitle-red {
+  font: var(--font-subtitle);
+  color: var(--red-color)
+}
+
+.Title-lg {
+  font: var(--font-title-lg);
+  color: var(--bg-gray-100);
+  text-align: center;
+}
+
+.text-sm {
+  font: var(--font-text-sm);
+  color: var(--bg-gray-300);
+  text-align: center;
+  line-height: 1.5;
+}
+
+.bagde {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+  background-color: var(--bg-gray-500);
+  border: 1px solid var(--bg-gray-400);
+  border-radius: 999px;
+  font: var(--font-text-md);
+  color: var(--bg-gray-200);
+}
+
+.exemplo {
+    display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px 8px 16px;
+  background-color: var(--bg-gray-500);
+  border: 1px solid var(--bg-gray-400);
+  border-radius: 99px;
+  font: var(--font-text-md);
+  color: var(--bg-gray-200);
+}
