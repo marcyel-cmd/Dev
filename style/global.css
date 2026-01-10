@@ -38,12 +38,12 @@
   --font-text-sm: 400 14px/40% var(--font-family-text)
 }
 
-.profile-container{
+.profile-container {
   display: flex;
   justify-content: center;
-  align-items: center;
-  padding: 0px 0px 54px;
+  margin-bottom: 32px;
 }
+
 
 .Intro {
   background-image: var(--bg-intro-image);
@@ -52,6 +52,11 @@
   background-size: cover;
   min-height: 750px; 
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 120px 163px 186px;
 }
 
 .subtitle {
@@ -69,6 +74,8 @@
   font: var(--font-title-lg);
   color: var(--bg-gray-100);
   text-align: center;
+  margin-top: 8px;
+  
 }
 
 .text-sm {
@@ -76,6 +83,8 @@
   color: var(--bg-gray-300);
   text-align: center;
   line-height: 1.5;
+  margin-top: 20px;
+  margin-bottom: 80px;
 }
 
 .bagde {
@@ -90,14 +99,24 @@
   color: var(--bg-gray-200);
 }
 
-.exemplo {
-    display: flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 16px 8px 16px;
-  background-color: var(--bg-gray-500);
-  border: 1px solid var(--bg-gray-400);
-  border-radius: 99px;
-  font: var(--font-text-md);
-  color: var(--bg-gray-200);
+.intro-text {
+  width: 600px;
+  height: 327px;
+
 }
+
+.Icons{
+  flex-wrap: wrap;
+  display: flex;
+  width: 1040px;
+  align-items: center;
+  justify-content: center;
+}
+
+ 
+
+
+  
+
+
+  
