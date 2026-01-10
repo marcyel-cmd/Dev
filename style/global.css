@@ -29,8 +29,8 @@
   --font-family-text: "Maven Pro", sans-serif;
 
   --font-title-lg: 800 56px/120% var(--font-family-title);
-  --font-title-md: 800 24/120% var(--font-family-title);
-  --font-title-sm: 800 16/120% var(--font-family-title);
+  --font-title-md: 800 24px/120% var(--font-family-title);
+  --font-title-sm: 800 16px/120% var(--font-family-title);
 
   --font-subtitle: 400 20px/120% var(--font-family-subtitle);
 
@@ -67,7 +67,8 @@
 
 .subtitle-red {
   font: var(--font-subtitle);
-  color: var(--red-color)
+  color: var(--red-color);
+  text-align: center;
 }
 
 .Title-lg {
@@ -75,6 +76,7 @@
   color: var(--bg-gray-100);
   text-align: center;
   margin-top: 8px;
+
   
 }
 
@@ -85,6 +87,7 @@
   line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 80px;
+
 }
 
 .bagde {
@@ -100,8 +103,8 @@
 }
 
 .intro-text {
-  width: 600px;
-  height: 327px;
+  width: 680px;
+  height: 247px;
 
 }
 
@@ -111,10 +114,73 @@
   width: 1040px;
   align-items: center;
   justify-content: center;
+  margin-bottom: 94px;
+  gap: 16px;
 }
 
+.icon-down {
+  margin-top: 94px;
+}
  
+.icon-html {
+  -webkit-mask-image: url(/assets/icons/HTML.svg);
+  mask-image: url(/assets/icons/HTML.svg);
+  background-color: var(--red-color);
+}
 
+.title-md {
+  font: var(--font-title-md);
+  color: var(--bg-gray-200);
+  margin-top: 8px;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.project-card {
+  background-color: var(--bg-gray-500);
+  border-radius: 16px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project-image {
+  background-color: var(--bg-gray-400);
+  border-radius: 12px;
+  padding: 12px;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 8px;
+}
+
+.project-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.project-title {
+  font: var(--font-title-sm);
+  color: var(--bg-gray-100);
+}
+
+.project-description {
+  font: var(--font-text-sm);
+  color: var(--bg-gray-300);
+  line-height: 1.4;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
 
   
 
