@@ -87,8 +87,23 @@
   line-height: 1.5;
   margin-top: 20px;
   margin-bottom: 80px;
-
 }
+
+.text-dm {
+  font: var(--font-text-md);
+  color: var(--bg-gray-200);
+  text-align: center;
+  line-height: 1.5;
+  margin-top: 8px;
+  margin-bottom: 48px;
+}
+
+.text-contact {
+  font: var(--font-subtitle);
+  color: var(--purple-color);
+  text-align: center;
+  margin-bottom: 8px;
+} 
 
 .bagde {
   display: flex;
@@ -230,9 +245,8 @@
 }
 
 .conteiner-service {
-  background-color: var(--bg-gray-600);
   width: 1040px;
-  margin: 56px auto 0 auto;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: repeat(3, 330px);
   gap: 24px;
@@ -241,7 +255,7 @@
 .projets-section-wrapper {
   background: var(--bg-gray-600);
   width: 100%;
-  padding: 0 0 120x 0;
+  padding: 80px 0 120x 0;
 }
 .header-service {
   grid-column: 1 / -1; 
@@ -265,4 +279,87 @@
   font: var(--font-text-sm);
   color: var(--bg-gray-200);
   margin-top: 8px;
+}
+
+.contacts {
+  background-image: var(--bg-contacts-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 750px; 
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 128px 120px 200px 120px;
+}
+
+.button-contacts {
+  display: grid;
+  flex-direction: column;
+}
+
+.social-buttons {
+  display: flex;
+  flex-direction: column; /* Coloca um botão abaixo do outro */
+  gap: 16px;              /* Espaço entre os botões */
+  max-width: 400px;       /* Limita a largura do conjunto de botões */
+  margin: 0 auto;
+}
+.contact-section {
+  width: 100%;
+  padding: 80px 0 120px 0;
+  background-color: var(--bg-gray-600);
+}
+
+.social-links-container {
+  display: flex;
+  flex-direction: column; /* Um abaixo do outro */
+  gap: 12px;
+  width: 100%;
+  max-width: 400px; /* Largura sugerida para não ficar esticado demais */
+  margin: 0 auto;
+}
+
+.social-button {
+  /* Propriedades do Figma */
+  background: var(--bg-gray-400);
+  border-radius: 8px;
+  padding: 20px;
+
+  
+  /* Alinhamento */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  
+  /* Reset de Link */
+  text-decoration: none;
+  transition: all 0.3s ease;
+  border: 1px solid transparent;
+}
+
+.button-text {
+  flex: 1; /* Faz o texto ocupar o espaço central */
+  color: var(--bg-gray-200);
+  font-size: 16px;
+  font-family: 'Maven Pro', sans-serif;
+  font-weight: 500;
+}
+
+.icon-brand {
+  width: 28px;
+  height: 28px;
+}
+
+.icon-arrow {
+  width: 20px;
+  height: 20px;
+}
+
+
+.social-button:hover {
+  background: var(--bg-gray-400); /* Um pouco mais claro */
+  border-color: var(--blue-color); /* A cor azul que estava no seu código */
+  transform: translateX(4px); /* Move levemente para a direita */
 }
