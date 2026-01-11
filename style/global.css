@@ -254,8 +254,11 @@
 }
 .projets-section-wrapper {
   background: var(--bg-gray-600);
-  width: 100%;
-  padding: 80px 0 120x 0;
+  padding: 0 20px 120px; /* Padding conforme seu Figma */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 56px;
 }
 .header-service {
   grid-column: 1 / -1; 
