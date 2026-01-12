@@ -138,8 +138,8 @@
 }
  
 .icon-html {
-  -webkit-mask-image: url(/assets/icons/HTML.svg);
-  mask-image: url(/assets/icons/HTML.svg);
+  -webkit-mask-image: url(assets/icons/HTML.svg);
+  mask-image: url(assets/icons/HTML.svg);
   background-color: var(--red-color);
 }
 
