@@ -21,8 +21,8 @@
   --bg-gray-400: #292c34;
   --bg-gray-500: #16181d;
   --bg-gray-600: #0d0e11;
-  --bg-intro-image: url(../assets/images/Background_Intro.png);
-  --bg-contacts-image: url(../assets/images/Background_Contacts.png);
+  --bg-intro-image: url('../assets/images/Background_Intro.png');
+  --bg-contacts-image: url('../assets/images/Background_Contacts.png');
 
   --font-family-title: "Asap", sans-serif;
   --font-family-subtitle: "Inconsolata", monospace;
