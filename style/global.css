@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=swap');
-@import url(/style/intro.css);
+@import url(style/intro.css);
 
 *{
   margin: 0;
@@ -21,8 +21,8 @@
   --bg-gray-400: #292c34;
   --bg-gray-500: #16181d;
   --bg-gray-600: #0d0e11;
-  --bg-intro-image: url(../assets/images/Background_Intro.png);
-  --bg-contacts-image: url(../assets/images/Background_Contacts.png);
+  --bg-intro-image: url(assets/images/Background_Intro.png);
+  --bg-contacts-image: url(assets/images/Background_Contacts.png);
 
   --font-family-title: "Asap", sans-serif;
   --font-family-subtitle: "Inconsolata", monospace;
